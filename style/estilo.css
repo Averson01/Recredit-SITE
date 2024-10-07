@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    height: 5000px;
     
    /*  margin: 0;
     padding: 0;
@@ -191,6 +192,7 @@ button:hover {
     color: #fff; /* Define a cor do texto do rodapé como branco */
     padding: 20px 0; /* Adiciona espaçamento acima e abaixo do rodapé */
     text-align: center; /* Centraliza o texto no rodapé */
+    margin-top: 150px;
   }
   
   .footer-container {
@@ -290,15 +292,32 @@ button:hover {
     }
 }
 
+.fundo{
+  background-color: #034047;
+  height: 180px;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  margin-top: 58%;
+}
+
+.fundo button{
+  border: 1px solid white;
+  background-color: #034047;
+  color:#ffc107;
+  margin-top: 100px;
+  margin-left: 45%;
+  
+}
+
  .container-card {
-            /*border: 1px solid red;*/
     display: flex;
     margin-top: 10px;
     gap: 20px;/*espaçamento entre os card's*/
     justify-content: center;
     flex-wrap: wrap;/*faz com que os card ficam um por baixo do outro*/
     cursor: pointer;
-
+   
    }
 
    .container-card .card{
@@ -321,6 +340,8 @@ button:hover {
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
             overflow: hidden;
             height:470px ;
+            position: relative;
+            z-index: 1;
         }
 
         .card img {
