@@ -96,7 +96,6 @@ body {
     flex-direction: column;
     display: flex;
 
-    border: 3px dashed red;
     
    
 }
@@ -291,14 +290,70 @@ button:hover {
     }
 }
 
+ .container-card {
+            /*border: 1px solid red;*/
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;/*espaçamento entre os card's*/
+    justify-content: center;
+    flex-wrap: wrap;/*faz com que os card ficam um por baixo do outro*/
+    cursor: pointer;
 
-#fundo{
-    background-image:url(/imagens/banner4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+   }
+
+   .container-card .card{
+    background-color: white;
+    width: 30%;
     
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16);
+
+
 }
+
+.container-card{
+  padding: 12px 3rem;
+
+}
+
+        .card {
+            background-color: white;
+            border-radius: 3px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+            overflow: hidden;
+            height:470px ;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Ajustar a imagem sem distorcer */
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2em;
+            color: #002437;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.4em;
+        }
+
+        .card-text {
+            font-size: 0.9em;
+            color: #555; /* Texto mais escuro mas não totalmente preto */
+            line-height: 1.6em;
+        }
+
+  
+
+
+
 
 
 
