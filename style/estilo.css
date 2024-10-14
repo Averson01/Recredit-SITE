@@ -187,7 +187,7 @@ button:hover {
 
   
   footer {
-    background-color: #034047; /* Define a cor de fundo do rodapé */
+    background-color: #034047; /* Define a cor de fundo do rodapé */ 
     color: #fff; /* Define a cor do texto do rodapé como branco */
     padding: 20px 0; /* Adiciona espaçamento acima e abaixo do rodapé */
     text-align: center; /* Centraliza o texto no rodapé */
@@ -250,13 +250,13 @@ button:hover {
     color: white;/* Define a cor do texto de copyright como cinza claro */
     background-color: #002437;
     height: 60px;
+    margin: 0 auto;
   
   }
 
   ul {
     list-style-type: none; /* Remove as bolinhas (marcadores) das listas */
     padding-left: 0; /* Remove o espaçamento padrão à esquerda */
-    margin: 0; /* Remove a margem padrão */
   }
 
   .footer-bottom p{
